@@ -1,6 +1,7 @@
 function printObjectProperty(myObject) {
   //Write your code here
-   console.log(myObject)
+    console.log(myObject);
+
 } 
 
 // The below code is to show how to create an Object. 
@@ -16,9 +17,9 @@ process.stdin.on("end", function () {
     var myObject = new Object;
   
     // Fill up the question marks
-    myObject.type = "Fiat";
-    myObject.model = "500";
-    myObject.color = "White";
+    myObject.type = obj[0];
+    myObject.model = obj[1];
+    myObject.color = obj[2];
 
     printObjectProperty(myObject);
 });
